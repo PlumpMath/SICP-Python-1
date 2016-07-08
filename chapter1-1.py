@@ -1,3 +1,4 @@
+Q1
 from operator import add, sub
 def a_plus_abs_b(a, b):
     """Return a+abs(b), but without calling abs."""
@@ -7,7 +8,7 @@ def a_plus_abs_b(a, b):
         op = add
     return op(a, b)
 
-C = a_plus_abs_b(1,-3)    
+#################    
 
 
 def if_function(condition, true_result, false_result):
@@ -28,4 +29,4 @@ def f():
 	return 'more than 1'	
 	
 
-print if_function(c(),t(),f())
+
